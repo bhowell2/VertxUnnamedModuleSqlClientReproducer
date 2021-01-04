@@ -10,3 +10,5 @@ Run
 `./gradlew clean shadowJar`
 Run
 `java -jar ./build/libs/VertxUnnamedModuleSqlReproducer-fat.jar`
+
+Also, I'm using java 11.
