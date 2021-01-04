@@ -1,7 +1,7 @@
 # Rxified Casting Issue
 Trying to cast the rxified getConnection (or rxGetConnection) to PgConnection results in a ClassCastException: 
 
-`java.lang.ClassCastException: class io.vertx.reactivex.sqlclient.SqlConnection cannot be cast to class io.vertx.pgclient.PgConnection (io.vertx.reactivex.sqlclient.SqlConnection and io.vertx.pgclient.PgConnection are in unnamed module of loader 'app')`
+`class io.vertx.reactivex.sqlclient.SqlConnection cannot be cast to class io.vertx.reactivex.pgclient.PgConnection (io.vertx.reactivex.sqlclient.SqlConnection and io.vertx.reactivex.pgclient.PgConnection are in unnamed module of loader 'app')`
 
 ## Setup:
 Start postgres with password in the main class.
